@@ -1,0 +1,14 @@
+<!-- Illustration of two stacked flash cards, used in the empty state. Tinted with the theme color in code. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <path
+        android:fillAlpha="0.4"
+        android:fillColor="#FF000000"
+        android:pathData="M30,14h56a8,8 0,0 1,8 8v64a8,8 0,0 1,-8 8h-56a8,8 0,0 1,-8 -8v-64a8,8 0,0 1,8 -8z" />
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M38,28h56a8,8 0,0 1,8 8v64a8,8 0,0 1,-8 8h-56a8,8 0,0 1,-8 -8v-64a8,8 0,0 1,8 -8zM44,48v6h44v-6zM44,62v6h30v-6z" />
+</vector>
