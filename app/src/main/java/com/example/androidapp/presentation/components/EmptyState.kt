@@ -1,4 +1,4 @@
-package com.example.androidapp.ui.components
+package com.example.androidapp.presentation.components
 
 import android.content.res.Configuration
 import androidx.compose.foundation.Image
@@ -18,8 +18,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.androidapp.R
-import com.example.androidapp.ui.theme.AndroidappTheme
-import com.example.androidapp.ui.theme.Spacing
+import com.example.androidapp.presentation.theme.AndroidappTheme
+import com.example.androidapp.presentation.theme.Spacing
 
 @Composable
 fun EmptyState(

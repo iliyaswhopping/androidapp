@@ -1,4 +1,4 @@
-package com.example.androidapp.ui.components
+package com.example.androidapp.presentation.components
 
 import android.content.res.Configuration
 import androidx.compose.animation.animateContentSize
@@ -18,9 +18,9 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.androidapp.data.Flashcard
-import com.example.androidapp.ui.theme.AndroidappTheme
-import com.example.androidapp.ui.theme.Spacing
+import com.example.androidapp.domain.model.Flashcard
+import com.example.androidapp.presentation.theme.AndroidappTheme
+import com.example.androidapp.presentation.theme.Spacing
 
 @Composable
 fun FlashcardItem(

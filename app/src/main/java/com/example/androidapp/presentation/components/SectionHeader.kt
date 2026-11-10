@@ -1,4 +1,4 @@
-package com.example.androidapp.ui.components
+package com.example.androidapp.presentation.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.MaterialTheme
@@ -6,7 +6,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.androidapp.ui.theme.AndroidappTheme
+import com.example.androidapp.presentation.theme.AndroidappTheme
 
 @Composable
 fun SectionHeader(

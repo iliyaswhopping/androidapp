@@ -1,4 +1,4 @@
-package com.example.androidapp.ui.components
+package com.example.androidapp.presentation.components
 
 import android.content.res.Configuration
 import androidx.compose.foundation.layout.Column
@@ -19,10 +19,10 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.androidapp.R
-import com.example.androidapp.data.Deck
-import com.example.androidapp.data.decks
-import com.example.androidapp.ui.theme.AndroidappTheme
-import com.example.androidapp.ui.theme.Spacing
+import com.example.androidapp.domain.model.Deck
+import com.example.androidapp.data.fake.sampleDecks
+import com.example.androidapp.presentation.theme.AndroidappTheme
+import com.example.androidapp.presentation.theme.Spacing
 
 @Composable
 fun DeckCard(
@@ -76,7 +76,7 @@ fun DeckCard(
 @Composable
 private fun DeckCardPreview() {
     AndroidappTheme {
-        DeckCard(deck = decks[0], isFavourite = true, onClick = {})
+        DeckCard(deck = sampleDecks[0], isFavourite = true, onClick = {})
     }
 }
 
@@ -84,6 +84,6 @@ private fun DeckCardPreview() {
 @Composable
 private fun DeckCardDarkPreview() {
     AndroidappTheme {
-        DeckCard(deck = decks[3], isFavourite = false, onClick = {})
+        DeckCard(deck = sampleDecks[3], isFavourite = false, onClick = {})
     }
 }

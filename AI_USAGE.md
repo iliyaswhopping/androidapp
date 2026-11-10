@@ -6,3 +6,16 @@ The sketches in /design are drawn by me by hand.
 
 I used Claude. It generated the first version of the screens, the reusable components, the theme
 (color scheme, Spacing object) and the sample data.
+
+
+## SIS4 + SIS5 (MVVM, Repository, Retrofit)
+
+I used Claude to refactor the app to MVVM and to connect it to an API (Retrofit, repository, ViewModels, Route/Screen split, previews, unit test).
+
+**Wrong layer example.** In the SIS3 version, `DeckListScreen` (a composable) had
+`var selectedCategory by remember { ... }` and filtered the list itself with
+`decks.filter { it.category == selectedCategory }`. Favourites were kept in `FlashDeckApp` with `remember`.
+This is logic in the UI layer, and the category was lost on rotation.
+I moved the filter and the search into `DeckListViewModel.showFilteredDecks()`, `selectedCategory` and
+`searchQuery` into `DeckListUiState`, and favourites into the repository (`favouriteIds: StateFlow`).
+Now the screen only gets the already filtered list and calls `onCategorySelected(...)`.
