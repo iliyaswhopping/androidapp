@@ -1,22 +1,11 @@
-package com.example.androidapp.data
+package com.example.androidapp.data.fake
 
-data class Flashcard(
-    val front: String,
-    val back: String
-)
+import com.example.androidapp.domain.model.Deck
+import com.example.androidapp.domain.model.Flashcard
 
-data class Deck(
-    val id: Int,
-    val title: String,
-    val category: String,
-    val emoji: String,
-    val description: String,
-    val cards: List<Flashcard>
-)
-
-val categories = listOf("All", "Languages", "Science", "Programming", "History", "Music")
-
-val decks = listOf(
+// Offline sample data. The same decks are in api/decks.json (served by the API).
+// Used by FakeDeckRepository, unit tests and @Preview functions.
+val sampleDecks = listOf(
     Deck(
         id = 1,
         title = "German A1: Verbs",

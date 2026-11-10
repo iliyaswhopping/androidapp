@@ -1,0 +1,310 @@
+[
+  {
+    "id": 1,
+    "title": "German A1: Verbs",
+    "category": "Languages",
+    "emoji": "🇩🇪",
+    "description": "Basic German verbs you need every day. Great for the first months of learning.",
+    "cards": [
+      {
+        "front": "gehen",
+        "back": "to go"
+      },
+      {
+        "front": "kommen",
+        "back": "to come"
+      },
+      {
+        "front": "machen",
+        "back": "to do / to make"
+      },
+      {
+        "front": "sprechen",
+        "back": "to speak"
+      },
+      {
+        "front": "ankommen",
+        "back": "to arrive"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "German A1: Seasons and Weather",
+    "category": "Languages",
+    "emoji": "☀️",
+    "description": "Words for the four seasons and the weather.",
+    "cards": [
+      {
+        "front": "der Frühling",
+        "back": "spring"
+      },
+      {
+        "front": "der Sommer",
+        "back": "summer"
+      },
+      {
+        "front": "der Herbst",
+        "back": "autumn"
+      },
+      {
+        "front": "der Winter",
+        "back": "winter"
+      },
+      {
+        "front": "der Schnee",
+        "back": "snow"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Kazakh Basics",
+    "category": "Languages",
+    "emoji": "🇰🇿",
+    "description": "Simple everyday Kazakh words and phrases.",
+    "cards": [
+      {
+        "front": "Сәлеметсіз бе",
+        "back": "Hello (polite)"
+      },
+      {
+        "front": "Рахмет",
+        "back": "Thank you"
+      },
+      {
+        "front": "Иә / Жоқ",
+        "back": "Yes / No"
+      },
+      {
+        "front": "Су",
+        "back": "Water"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "English Phrasal Verbs That Every Student Should Know Before the IELTS Exam",
+    "category": "Languages",
+    "emoji": "🇬🇧",
+    "description": "A deck with a very long title to check that the layout does not break.",
+    "cards": [
+      {
+        "front": "give up",
+        "back": "to stop trying"
+      },
+      {
+        "front": "look after",
+        "back": "to take care of"
+      },
+      {
+        "front": "put off",
+        "back": "to postpone"
+      },
+      {
+        "front": "figure out",
+        "back": "to understand / to solve"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Chemistry: Elements",
+    "category": "Science",
+    "emoji": "🧪",
+    "description": "Chemical symbols of the most common elements.",
+    "cards": [
+      {
+        "front": "H",
+        "back": "Hydrogen"
+      },
+      {
+        "front": "O",
+        "back": "Oxygen"
+      },
+      {
+        "front": "Na",
+        "back": "Sodium"
+      },
+      {
+        "front": "Fe",
+        "back": "Iron"
+      },
+      {
+        "front": "Au",
+        "back": "Gold"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Physics Formulas",
+    "category": "Science",
+    "emoji": "⚛️",
+    "description": "Key formulas from school and first-year physics.",
+    "cards": [
+      {
+        "front": "Newton's second law",
+        "back": "F = m · a"
+      },
+      {
+        "front": "Kinetic energy",
+        "back": "E = m · v² / 2"
+      },
+      {
+        "front": "Ohm's law",
+        "back": "U = I · R"
+      },
+      {
+        "front": "Density",
+        "back": "ρ = m / V"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Biology: The Cell",
+    "category": "Science",
+    "emoji": "🧬",
+    "description": "Parts of the cell and what they do.",
+    "cards": [
+      {
+        "front": "Mitochondria",
+        "back": "Produces energy (ATP)"
+      },
+      {
+        "front": "Nucleus",
+        "back": "Stores DNA"
+      },
+      {
+        "front": "Ribosome",
+        "back": "Makes proteins"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Kotlin Basics",
+    "category": "Programming",
+    "emoji": "💻",
+    "description": "Core Kotlin keywords and ideas.",
+    "cards": [
+      {
+        "front": "val vs var",
+        "back": "val cannot be reassigned, var can"
+      },
+      {
+        "front": "data class",
+        "back": "A class that holds data, gets equals/toString/copy for free"
+      },
+      {
+        "front": "?.",
+        "back": "Safe call: runs only if the value is not null"
+      },
+      {
+        "front": "?:",
+        "back": "Elvis operator: default value when the left side is null"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Jetpack Compose",
+    "category": "Programming",
+    "emoji": "📱",
+    "description": "Layout building blocks of Jetpack Compose.",
+    "cards": [
+      {
+        "front": "Column",
+        "back": "Places children vertically"
+      },
+      {
+        "front": "Row",
+        "back": "Places children horizontally"
+      },
+      {
+        "front": "LazyColumn",
+        "back": "A scrolling vertical list that only draws visible items"
+      },
+      {
+        "front": "Scaffold",
+        "back": "Screen skeleton with slots for top bar, content and more"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Git Commands",
+    "category": "Programming",
+    "emoji": "🌿",
+    "description": "The Git commands you use every day.",
+    "cards": [
+      {
+        "front": "git add",
+        "back": "Stage changes for the next commit"
+      },
+      {
+        "front": "git commit -m",
+        "back": "Save staged changes with a message"
+      },
+      {
+        "front": "git push",
+        "back": "Upload commits to the remote repository"
+      },
+      {
+        "front": "git pull",
+        "back": "Download and merge remote changes"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "History of Kazakhstan",
+    "category": "History",
+    "emoji": "🏛️",
+    "description": "Important dates from the history of Kazakhstan.",
+    "cards": [
+      {
+        "front": "1465",
+        "back": "Kazakh Khanate founded"
+      },
+      {
+        "front": "16 December 1991",
+        "back": "Independence of Kazakhstan"
+      },
+      {
+        "front": "1997",
+        "back": "Capital moved to Astana"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "World War II",
+    "category": "History",
+    "emoji": "📜",
+    "description": "Key events and dates of World War II.",
+    "cards": [
+      {
+        "front": "1 September 1939",
+        "back": "Germany invades Poland, the war begins"
+      },
+      {
+        "front": "22 June 1941",
+        "back": "Germany attacks the USSR"
+      },
+      {
+        "front": "8–9 May 1945",
+        "back": "Germany surrenders"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "My New Deck",
+    "category": "Programming",
+    "emoji": "🆕",
+    "description": "A deck without cards yet, it shows the empty state on the detail screen.",
+    "cards": []
+  }
+]
